@@ -1,0 +1,6 @@
+V1 = float(input('скорость 1 машины: '))
+V2 = float(input('скорость 2 машины: '))
+S = float(input('расстояние между машинами: '))
+T = float(input('время скорость 1 машины: '))
+distance = abs(S - (V1 + V2) * T)
+print(f'расстояние между машинами после {T} : {round(distance, 2)}')
